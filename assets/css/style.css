@@ -1,0 +1,26 @@
+/* Custom styles (Tailwind handles the rest) */
+.gradient-hero {
+    background: linear-gradient(135deg, #0F2C59 0%, #1E64B4 60%, #173B6C 100%);
+}
+.telugu-font {
+    font-family: 'Gautami', 'Nirmala UI', 'Mandali', sans-serif;
+}
+.tab-active {
+    border-bottom: 3px solid #D97706;
+    color: #1E64B4;
+    font-weight: 700;
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #1E64B4;
+    border-radius: 4px;
+}
+
+/* Offset anchor jumps so the sticky header does not cover the target */
+html { scroll-padding-top: 7rem; }
